@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "code": "MEX",
+    "tournamentName": "Estadio Ciudad de México",
+    "originalName": "Estadio Azteca",
+    "country": "México",
+    "city": "Ciudad de México",
+    "capacity": 83264,
+    "builtYear": 1966,
+    "location": { "lat": 19.3029, "lng": -99.1505 }
+  },
+  {
+    "id": 2,
+    "code": "GDL",
+    "tournamentName": "Estadio Guadalajara",
+    "originalName": "Estadio Akron",
+    "country": "México",
+    "city": "Zapopan",
+    "capacity": 48071,
+    "builtYear": 2010,
+    "location": { "lat": 20.6811, "lng": -103.4627 }
+  },
+  {
+    "id": 3,
+    "code": "MTY",
+    "tournamentName": "Estadio Monterrey",
+    "originalName": "Estadio BBVA",
+    "country": "México",
+    "city": "Guadalupe",
+    "capacity": 53500,
+    "builtYear": 2015,
+    "location": { "lat": 25.6694, "lng": -100.2442 }
+  },
+  {
+    "id": 4,
+    "code": "TOR",
+    "tournamentName": "Toronto Stadium",
+    "originalName": "BMO Field",
+    "country": "Canadá",
+    "city": "Toronto",
+    "capacity": 45000,
+    "builtYear": 2007,
+    "location": { "lat": 43.6333, "lng": -79.4186 }
+  },
+  {
+    "id": 5,
+    "code": "VAN",
+    "tournamentName": "BC Place Vancouver",
+    "originalName": "BC Place",
+    "country": "Canadá",
+    "city": "Vancouver",
+    "capacity": 54000,
+    "builtYear": 1983,
+    "location": { "lat": 49.2767, "lng": -123.1120 }
+  },
+  {
+    "id": 6,
+    "code": "NYJ",
+    "tournamentName": "New York New Jersey Stadium",
+    "originalName": "MetLife Stadium",
+    "country": "Estados Unidos",
+    "city": "East Rutherford",
+    "capacity": 82500,
+    "builtYear": 2010,
+    "location": { "lat": 40.8128, "lng": -74.0742 }
+  },
+  {
+    "id": 7,
+    "code": "DAL",
+    "tournamentName": "Dallas Stadium",
+    "originalName": "AT&T Stadium",
+    "country": "Estados Unidos",
+    "city": "Arlington",
+    "capacity": 94000,
+    "builtYear": 2009,
+    "location": { "lat": 32.7473, "lng": -97.0945 }
+  },
+  {
+    "id": 8,
+    "code": "KCA",
+    "tournamentName": "Kansas City Stadium",
+    "originalName": "Arrowhead Stadium",
+    "country": "Estados Unidos",
+    "city": "Kansas City",
+    "capacity": 73000,
+    "builtYear": 1972,
+    "location": { "lat": 39.0489, "lng": -94.4839 }
+  },
+  {
+    "id": 9,
+    "code": "HOU",
+    "tournamentName": "Houston Stadium",
+    "originalName": "NRG Stadium",
+    "country": "Estados Unidos",
+    "city": "Houston",
+    "capacity": 72000,
+    "builtYear": 2002,
+    "location": { "lat": 29.6847, "lng": -95.4107 }
+  },
+  {
+    "id": 10,
+    "code": "ATL",
+    "tournamentName": "Atlanta Stadium",
+    "originalName": "Mercedes-Benz Stadium",
+    "country": "Estados Unidos",
+    "city": "Atlanta",
+    "capacity": 75000,
+    "builtYear": 2017,
+    "location": { "lat": 33.7553, "lng": -84.4017 }
+  },
+  {
+    "id": 11,
+    "code": "LAX",
+    "tournamentName": "Los Angeles Stadium",
+    "originalName": "SoFi Stadium",
+    "country": "Estados Unidos",
+    "city": "Inglewood",
+    "capacity": 70000,
+    "builtYear": 2020,
+    "location": { "lat": 33.9534, "lng": -118.3392 }
+  },
+  {
+    "id": 12,
+    "code": "PHI",
+    "tournamentName": "Philadelphia Stadium",
+    "originalName": "Lincoln Financial Field",
+    "country": "Estados Unidos",
+    "city": "Philadelphia",
+    "capacity": 69000,
+    "builtYear": 2003,
+    "location": { "lat": 39.9008, "lng": -75.1675 }
+  },
+  {
+    "id": 13,
+    "code": "SEA",
+    "tournamentName": "Seattle Stadium",
+    "originalName": "Lumen Field",
+    "country": "Estados Unidos",
+    "city": "Seattle",
+    "capacity": 69000,
+    "builtYear": 2002,
+    "location": { "lat": 47.5952, "lng": -122.3316 }
+  },
+  {
+    "id": 14,
+    "code": "SFO",
+    "tournamentName": "San Francisco Bay Area Stadium",
+    "originalName": "Levi's Stadium",
+    "country": "Estados Unidos",
+    "city": "Santa Clara",
+    "capacity": 71000,
+    "builtYear": 2014,
+    "location": { "lat": 37.4033, "lng": -121.9694 }
+  },
+  {
+    "id": 15,
+    "code": "BOS",
+    "tournamentName": "Boston Stadium",
+    "originalName": "Gillette Stadium",
+    "country": "Estados Unidos",
+    "city": "Foxborough",
+    "capacity": 65000,
+    "builtYear": 2002,
+    "location": { "lat": 42.0909, "lng": -71.2643 }
+  },
+  {
+    "id": 16,
+    "code": "MIA",
+    "tournamentName": "Miami Stadium",
+    "originalName": "Hard Rock Stadium",
+    "country": "Estados Unidos",
+    "city": "Miami Gardens",
+    "capacity": 65000,
+    "builtYear": 1987,
+    "location": { "lat": 25.9580, "lng": -80.2389 }
+  }
+]

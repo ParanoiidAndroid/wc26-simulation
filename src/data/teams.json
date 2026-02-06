@@ -1,0 +1,482 @@
+[
+  {
+    "id": "mex",
+    "name": "México",
+    "shortName": "MEX",
+    "confederation": "CONCACAF",
+    "group": "A",
+    "fifaRanking": 16,
+    "coach": "Javier Aguirre",
+    "host": true
+  },
+  {
+    "id": "rsa",
+    "name": "Sudáfrica",
+    "shortName": "RSA",
+    "confederation": "CAF",
+    "group": "A",
+    "fifaRanking": 60,
+    "coach": "Hugo Broos",
+    "host": false
+  },
+  {
+    "id": "kor",
+    "name": "Corea del Sur",
+    "shortName": "KOR",
+    "confederation": "AFC",
+    "group": "A",
+    "fifaRanking": 22,
+    "coach": "Hong Myung-bo",
+    "host": false
+  },
+  {
+    "id": "can",
+    "name": "Canadá",
+    "shortName": "CAN",
+    "confederation": "CONCACAF",
+    "group": "B",
+    "fifaRanking": 29,
+    "coach": "Jesse Marsch",
+    "host": true
+  },
+  {
+    "id": "qat",
+    "name": "Catar",
+    "shortName": "QAT",
+    "confederation": "AFC",
+    "group": "B",
+    "fifaRanking": 56,
+    "coach": "Julen Lopetegui",
+    "host": false
+  },
+  {
+    "id": "sui",
+    "name": "Suiza",
+    "shortName": "SUI",
+    "confederation": "UEFA",
+    "group": "B",
+    "fifaRanking": 18,
+    "coach": "Murat Yakin",
+    "host": false
+  },
+  {
+    "id": "bra",
+    "name": "Brasil",
+    "shortName": "BRA",
+    "confederation": "CONMEBOL",
+    "group": "C",
+    "fifaRanking": 5,
+    "coach": "Carlo Ancelotti",
+    "host": false
+  },
+  {
+    "id": "mar",
+    "name": "Marruecos",
+    "shortName": "MAR",
+    "confederation": "CAF",
+    "group": "C",
+    "fifaRanking": 8,
+    "coach": "Walid Regragui",
+    "host": false
+  },
+  {
+    "id": "hai",
+    "name": "Haití",
+    "shortName": "HAI",
+    "confederation": "CONCACAF",
+    "group": "C",
+    "fifaRanking": 83,
+    "coach": "Sébastien Migné",
+    "host": false
+  },
+  {
+    "id": "sco",
+    "name": "Escocia",
+    "shortName": "SCO",
+    "confederation": "UEFA",
+    "group": "C",
+    "fifaRanking": 38,
+    "coach": "Steve Clarke",
+    "host": false
+  },
+  {
+    "id": "usa",
+    "name": "Estados Unidos",
+    "shortName": "USA",
+    "confederation": "CONCACAF",
+    "group": "D",
+    "fifaRanking": 15,
+    "coach": "Mauricio Pochettino",
+    "host": true
+  },
+  {
+    "id": "par",
+    "name": "Paraguay",
+    "shortName": "PAR",
+    "confederation": "CONMEBOL",
+    "group": "D",
+    "fifaRanking": 40,
+    "coach": "Gustavo Alfaro",
+    "host": false
+  },
+  {
+    "id": "aus",
+    "name": "Australia",
+    "shortName": "AUS",
+    "confederation": "AFC",
+    "group": "D",
+    "fifaRanking": 27,
+    "coach": "Tony Popovic",
+    "host": false
+  },
+  {
+    "id": "ger",
+    "name": "Alemania",
+    "shortName": "GER",
+    "confederation": "UEFA",
+    "group": "E",
+    "fifaRanking": 10,
+    "coach": "Julian Nagelsmann",
+    "host": false
+  },
+  {
+    "id": "cuw",
+    "name": "Curazao",
+    "shortName": "CUW",
+    "confederation": "CONCACAF",
+    "group": "E",
+    "fifaRanking": 81,
+    "coach": "Dick Advocaat",
+    "host": false
+  },
+  {
+    "id": "civ",
+    "name": "Costa de Marfil",
+    "shortName": "CIV",
+    "confederation": "CAF",
+    "group": "E",
+    "fifaRanking": 37,
+    "coach": "Emerse Faé",
+    "host": false
+  },
+  {
+    "id": "ecu",
+    "name": "Ecuador",
+    "shortName": "ECU",
+    "confederation": "CONMEBOL",
+    "group": "E",
+    "fifaRanking": 23,
+    "coach": "Sebastián Beccacece",
+    "host": false
+  },
+  {
+    "id": "ned",
+    "name": "Países Bajos",
+    "shortName": "NED",
+    "confederation": "UEFA",
+    "group": "F",
+    "fifaRanking": 7,
+    "coach": "Ronald Koeman",
+    "host": false
+  },
+  {
+    "id": "jpn",
+    "name": "Japón",
+    "shortName": "JPN",
+    "confederation": "AFC",
+    "group": "F",
+    "fifaRanking": 19,
+    "coach": "Hajime Moriyasu",
+    "host": false
+  },
+  {
+    "id": "tun",
+    "name": "Túnez",
+    "shortName": "TUN",
+    "confederation": "CAF",
+    "group": "F",
+    "fifaRanking": 47,
+    "coach": "Sami Trabelsi",
+    "host": false
+  },
+  {
+    "id": "bel",
+    "name": "Bélgica",
+    "shortName": "BEL",
+    "confederation": "UEFA",
+    "group": "G",
+    "fifaRanking": 9,
+    "coach": "Rudi García",
+    "host": false
+  },
+  {
+    "id": "egy",
+    "name": "Egipto",
+    "shortName": "EGY",
+    "confederation": "CAF",
+    "group": "G",
+    "fifaRanking": 31,
+    "coach": "Hossam Hassan",
+    "host": false
+  },
+  {
+    "id": "irn",
+    "name": "Irán",
+    "shortName": "IRN",
+    "confederation": "AFC",
+    "group": "G",
+    "fifaRanking": 20,
+    "coach": "Amir Ghalenoei",
+    "host": false
+  },
+  {
+    "id": "nzl",
+    "name": "Nueva Zelanda",
+    "shortName": "NZL",
+    "confederation": "OFC",
+    "group": "G",
+    "fifaRanking": 84,
+    "coach": "Darren Bazeley",
+    "host": false
+  },
+  {
+    "id": "esp",
+    "name": "España",
+    "shortName": "ESP",
+    "confederation": "UEFA",
+    "group": "H",
+    "fifaRanking": 1,
+    "coach": "Luis de la Fuente",
+    "host": false
+  },
+  {
+    "id": "cpv",
+    "name": "Cabo Verde",
+    "shortName": "CPV",
+    "confederation": "CAF",
+    "group": "H",
+    "fifaRanking": 67,
+    "coach": "Bubista",
+    "host": false
+  },
+  {
+    "id": "ksa",
+    "name": "Arabia Saudita",
+    "shortName": "KSA",
+    "confederation": "AFC",
+    "group": "H",
+    "fifaRanking": 61,
+    "coach": "Hervé Renard",
+    "host": false
+  },
+  {
+    "id": "uru",
+    "name": "Uruguay",
+    "shortName": "URU",
+    "confederation": "CONMEBOL",
+    "group": "H",
+    "fifaRanking": 17,
+    "coach": "Marcelo Bielsa",
+    "host": false
+  },
+  {
+    "id": "fra",
+    "name": "Francia",
+    "shortName": "FRA",
+    "confederation": "UEFA",
+    "group": "I",
+    "fifaRanking": 3,
+    "coach": "Didier Deschamps",
+    "host": false
+  },
+  {
+    "id": "sen",
+    "name": "Senegal",
+    "shortName": "SEN",
+    "confederation": "CAF",
+    "group": "I",
+    "fifaRanking": 12,
+    "coach": "Aliou Cissé",
+    "host": false
+  },
+  {
+    "id": "nor",
+    "name": "Noruega",
+    "shortName": "NOR",
+    "confederation": "UEFA",
+    "group": "I",
+    "fifaRanking": 32,
+    "coach": "Ståle Solbakken",
+    "host": false
+  },
+  {
+    "id": "arg",
+    "name": "Argentina",
+    "shortName": "ARG",
+    "confederation": "CONMEBOL",
+    "group": "J",
+    "fifaRanking": 2,
+    "coach": "Lionel Scaloni",
+    "host": false
+  },
+  {
+    "id": "alg",
+    "name": "Argelia",
+    "shortName": "ALG",
+    "confederation": "CAF",
+    "group": "J",
+    "fifaRanking": 28,
+    "coach": "Vladimir Petković",
+    "host": false
+  },
+  {
+    "id": "aut",
+    "name": "Austria",
+    "shortName": "AUT",
+    "confederation": "UEFA",
+    "group": "J",
+    "fifaRanking": 24,
+    "coach": "Ralf Rangnick",
+    "host": false
+  },
+  {
+    "id": "jor",
+    "name": "Jordania",
+    "shortName": "JOR",
+    "confederation": "AFC",
+    "group": "J",
+    "fifaRanking": 64,
+    "coach": "Jamal Sellami",
+    "host": false
+  },
+  {
+    "id": "por",
+    "name": "Portugal",
+    "shortName": "POR",
+    "confederation": "UEFA",
+    "group": "K",
+    "fifaRanking": 6,
+    "coach": "Roberto Martínez",
+    "host": false
+  },
+  {
+    "id": "uzb",
+    "name": "Uzbekistán",
+    "shortName": "UZB",
+    "confederation": "AFC",
+    "group": "K",
+    "fifaRanking": 52,
+    "coach": "Fabio Cannavaro",
+    "host": false
+  },
+  {
+    "id": "col",
+    "name": "Colombia",
+    "shortName": "COL",
+    "confederation": "CONMEBOL",
+    "group": "K",
+    "fifaRanking": 14,
+    "coach": "Néstor Lorenzo",
+    "host": false
+  },
+  {
+    "id": "eng",
+    "name": "Inglaterra",
+    "shortName": "ENG",
+    "confederation": "UEFA",
+    "group": "L",
+    "fifaRanking": 4,
+    "coach": "Thomas Tuchel",
+    "host": false
+  },
+  {
+    "id": "cro",
+    "name": "Croacia",
+    "shortName": "CRO",
+    "confederation": "UEFA",
+    "group": "L",
+    "fifaRanking": 11,
+    "coach": "Zlatko Dalić",
+    "host": false
+  },
+  {
+    "id": "gha",
+    "name": "Ghana",
+    "shortName": "GHA",
+    "confederation": "CAF",
+    "group": "L",
+    "fifaRanking": 72,
+    "coach": "Otto Addo",
+    "host": false
+  },
+  {
+    "id": "pan",
+    "name": "Panamá",
+    "shortName": "PAN",
+    "confederation": "CONCACAF",
+    "group": "L",
+    "fifaRanking": 33,
+    "coach": "Thomas Christiansen",
+    "host": false
+  },
+  {
+    "id": "uefa-1",
+    "name": "Ganador Repechaje UEFA 1",
+    "shortName": "UEFA1",
+    "confederation": "UEFA",
+    "group": "B",
+    "fifaRanking": 0,
+    "coach": "ITA/NIR/GAL/BOS",
+    "host": false
+  },
+  {
+    "id": "uefa-2",
+    "name": "Ganador Repechaje UEFA 2",
+    "shortName": "UEFA2",
+    "confederation": "UEFA",
+    "group": "F",
+    "fifaRanking": 0,
+    "coach": "POL/ALB/UCR/SWE",
+    "host": false
+  },
+  {
+    "id": "uefa-3",
+    "name": "Ganador Repechaje UEFA 3",
+    "shortName": "UEFA3",
+    "confederation": "UEFA",
+    "group": "D",
+    "fifaRanking": 0,
+    "coach": "TUR/RUM/ESL/KOS",
+    "host": false
+  },
+  {
+    "id": "uefa-4",
+    "name": "Ganador Repechaje UEFA 4",
+    "shortName": "UEFA4",
+    "confederation": "UEFA",
+    "group": "A",
+    "fifaRanking": null,
+    "coach": "DIN/MAC/CZE/IRL",
+    "host": false
+  },
+  {
+    "id": "fifa-1",
+    "name": "Ganador Repechaje FIFA 1",
+    "shortName": "FIFA1",
+    "confederation": "Intercontinental",
+    "group": "K",
+    "fifaRanking": null,
+    "coach": "CON/JAM/CAL",
+    "host": false
+  },
+  {
+    "id": "fifa-2",
+    "name": "Ganador Repechaje FIFA 2",
+    "shortName": "FIFA2",
+    "confederation": "Intercontinental",
+    "group": "I",
+    "fifaRanking": null,
+    "coach": "IRK/BOL/SUR",
+    "host": false
+  }
+]
