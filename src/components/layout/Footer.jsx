@@ -117,12 +117,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Extreme Bottom Text Decoration */}
-      <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 select-none pointer-events-none">
-         <span className="text-[150px] font-black text-white/[0.02] tracking-tighter uppercase leading-none whitespace-nowrap">
-            PREMIUM ParanoiidAndroid TRACKER 2026
-         </span>
-      </div>
+
     </footer>
   );
 };

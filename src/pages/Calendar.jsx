@@ -1,12 +1,15 @@
+import { useState } from 'react';
 import calendarData from '../data/calendar.json';
 import { useFilteredList } from '../hooks/useFilteredList';
 import DataGrid from '../components/common/DataGrid';
 import MatchCard from '../components/calendar/MatchCard';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'motion/react';
-import { Trophy, Filter } from 'lucide-react';
+import { Trophy, Filter, Clock } from 'lucide-react';
 
 const Calendar = () => {
+  const [timeView, setTimeView] = useState('arg'); // 'arg' | 'local'
+
   const { 
     data: filteredMatches, 
     updateFilter, 
@@ -45,25 +48,46 @@ const Calendar = () => {
           </p>
         </motion.div>
 
-        {/* Group Filters */}
-        <div className="mt-12">
-          <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-6 flex items-center gap-3">
-             <Filter size={12} className="text-fifa-blue" />
-             Filtrar por Grupo
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {groups.map((group) => (
-              <button
-                key={group}
-                onClick={() => updateFilter('group', group)}
-                className={`w-12 h-12 flex items-center justify-center rounded-sm text-xs font-black uppercase transition-all border
-                  ${((!filters.group && group === 'Todas') || (filters.group === group))
-                    ? 'bg-fifa-blue text-white shadow-[0_0_20px_rgba(0,75,156,0.3)] border-fifa-blue' 
-                    : 'bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white border-white/5'}`}
-              >
-                {group === 'Todas' ? 'ALL' : group}
-              </button>
-            ))}
+        {/* Group Filters & Time Mode */}
+        <div className="mt-12 flex flex-col md:flex-row md:items-end justify-between gap-8">
+          <div>
+            <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-6 flex items-center gap-3">
+               <Filter size={12} className="text-fifa-blue" />
+               Filtrar por Grupo
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {groups.map((group) => (
+                <button
+                  key={group}
+                  onClick={() => updateFilter('group', group)}
+                  className={`w-12 h-12 flex items-center justify-center rounded-sm text-xs font-black uppercase transition-all border
+                    ${((!filters.group && group === 'Todas') || (filters.group === group))
+                      ? 'bg-fifa-blue text-white shadow-[0_0_20px_rgba(0,75,156,0.3)] border-fifa-blue' 
+                      : 'bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white border-white/5'}`}
+                >
+                  {group === 'Todas' ? 'ALL' : group}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="bg-[#0a0c10] border border-white/5 p-1 rounded-md flex gap-1">
+            <button
+              onClick={() => setTimeView('arg')}
+              className={`px-4 py-2 rounded-sm text-[10px] font-black uppercase tracking-widest transition-all flex items-center gap-2
+                ${timeView === 'arg' ? 'bg-white/10 text-white shadow-xl' : 'text-slate-500 hover:text-slate-300'}`}
+            >
+              <Clock size={10} />
+              Horario ARG
+            </button>
+            <button
+              onClick={() => setTimeView('local')}
+              className={`px-4 py-2 rounded-sm text-[10px] font-black uppercase tracking-widest transition-all flex items-center gap-2
+                ${timeView === 'local' ? 'bg-white/10 text-white shadow-xl' : 'text-slate-500 hover:text-slate-300'}`}
+            >
+              <Clock size={10} />
+              Horario OFICIAL
+            </button>
           </div>
         </div>
       </div>
@@ -89,7 +113,7 @@ const Calendar = () => {
           
           <DataGrid 
             data={filteredMatches}
-            renderItem={(match) => <MatchCard match={match} />}
+            renderItem={(match) => <MatchCard match={match} timeView={timeView} />}
             gridClass="grid grid-cols-1 lg:grid-cols-2 gap-6"
             emptyMessage="No hay partidos programados para este grupo"
           />

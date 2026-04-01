@@ -9,6 +9,7 @@ import Team from './pages/Team';
 import Calendar from './pages/Calendar';
 import Stadiums from './pages/Stadiums';
 import Simulator from './pages/Simulator';
+import TierList from './pages/TierList';
 import UnderConstruction from './components/common/UnderConstruction';
 import Preloader from './components/common/Preloader';
 
@@ -46,6 +47,7 @@ function App() {
             <Route path="/players" element={<UnderConstruction title="Jugadores" />} />
             <Route path="/stadiums" element={<Stadiums />} />
             <Route path="/simulator" element={<Simulator />} />
+            <Route path="/tierlist" element={<TierList />} />
             <Route path="*" element={<UnderConstruction title="No Encontrado" />} />
           </Routes>
         </main>

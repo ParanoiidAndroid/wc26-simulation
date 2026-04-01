@@ -16,6 +16,7 @@ const Navbar = () => {
     { name: 'Equipos', path: '/teams' },
     { name: 'Jugadores', path: '/players' },
     { name: 'Estadios', path: '/stadiums' },
+    { name: 'Tier List', path: '/tierlist' },
   ];
 
   return (

@@ -20,7 +20,7 @@
     "stage": "Fase de Grupos",
     "group": "A",
     "team1": "kor",
-    "team2": "uefa-4",
+    "team2": "cze",
     "status": "scheduled"
   },
   {
@@ -32,7 +32,7 @@
     "stage": "Fase de Grupos",
     "group": "B",
     "team1": "can",
-    "team2": "uefa-1",
+    "team2": "bih",
     "status": "scheduled"
   },
   {
@@ -92,7 +92,7 @@
     "stage": "Fase de Grupos",
     "group": "D",
     "team1": "aus",
-    "team2": "uefa-3",
+    "team2": "tur",
     "status": "scheduled"
   },
   {
@@ -139,7 +139,7 @@
     "city": "Monterrey",
     "stage": "Fase de Grupos",
     "group": "F",
-    "team1": "uefa-2",
+    "team1": "swe",
     "team2": "tun",
     "status": "scheduled"
   },
@@ -211,7 +211,7 @@
     "city": "Boston",
     "stage": "Fase de Grupos",
     "group": "I",
-    "team1": "fifa-2",
+    "team1": "irq",
     "team2": "nor",
     "status": "scheduled"
   },
@@ -249,7 +249,7 @@
     "stage": "Fase de Grupos",
     "group": "K",
     "team1": "por",
-    "team2": "fifa-1",
+    "team2": "cod",
     "status": "scheduled"
   },
   {
@@ -297,7 +297,7 @@
     "city": "Atlanta",
     "stage": "Fase de Grupos",
     "group": "A",
-    "team1": "uefa-4",
+    "team1": "cze",
     "team2": "rsa",
     "status": "scheduled"
   },
@@ -357,7 +357,7 @@
     "city": "Miami",
     "stage": "Fase de Grupos",
     "group": "B",
-    "team1": "uefa-1",
+    "team1": "bih",
     "team2": "sui",
     "status": "scheduled"
   },
@@ -381,7 +381,7 @@
     "city": "San Francisco",
     "stage": "Fase de Grupos",
     "group": "D",
-    "team1": "uefa-3",
+    "team1": "tur",
     "team2": "par",
     "status": "scheduled"
   },
@@ -406,7 +406,7 @@
     "stage": "Fase de Grupos",
     "group": "F",
     "team1": "ned",
-    "team2": "uefa-2",
+    "team2": "swe",
     "status": "scheduled"
   },
   {
@@ -490,7 +490,7 @@
     "stage": "Fase de Grupos",
     "group": "I",
     "team1": "fra",
-    "team2": "fifa-2",
+    "team2": "irq",
     "status": "scheduled"
   },
   {
@@ -574,7 +574,7 @@
     "stage": "Fase de Grupos",
     "group": "K",
     "team1": "col",
-    "team2": "fifa-1",
+    "team2": "cod",
     "status": "scheduled"
   },
   {
@@ -586,7 +586,7 @@
     "stage": "Fase de Grupos",
     "group": "A",
     "team1": "mex",
-    "team2": "uefa-4",
+    "team2": "cze",
     "status": "scheduled"
   },
   {
@@ -622,7 +622,7 @@
     "stage": "Fase de Grupos",
     "group": "B",
     "team1": "qat",
-    "team2": "uefa-1",
+    "team2": "bih",
     "status": "scheduled"
   },
 
@@ -659,7 +659,7 @@
     "stage": "Fase de Grupos",
     "group": "D",
     "team1": "usa",
-    "team2": "uefa-3",
+    "team2": "tur",
     "status": "scheduled"
   },
   {
@@ -720,7 +720,7 @@
     "stage": "Fase de Grupos",
     "group": "F",
     "team1": "jpn",
-    "team2": "uefa-2",
+    "team2": "swe",
     "status": "scheduled"
   },
 
@@ -794,7 +794,7 @@
     "stage": "Fase de Grupos",
     "group": "I",
     "team1": "sen",
-    "team2": "fifa-2",
+    "team2": "irq",
     "status": "scheduled"
   },
   {
@@ -842,7 +842,7 @@
     "city": "Atlanta",
     "stage": "Fase de Grupos",
     "group": "K",
-    "team1": "fifa-1",
+    "team1": "cod",
     "team2": "uzb",
     "status": "scheduled"
   },

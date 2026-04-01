@@ -5,9 +5,19 @@
     "shortName": "MEX",
     "confederation": "CONCACAF",
     "group": "A",
-    "fifaRanking": 16,
+    "fifaRanking": 15,
     "coach": "Javier Aguirre",
     "host": true
+  },
+  {
+    "id": "cze",
+    "name": "Chequia",
+    "shortName": "CZE",
+    "confederation": "UEFA",
+    "group": "A",
+    "fifaRanking": 41,
+    "coach": "Miroslav Koubek",
+    "host": false
   },
   {
     "id": "rsa",
@@ -15,7 +25,7 @@
     "shortName": "RSA",
     "confederation": "CAF",
     "group": "A",
-    "fifaRanking": 60,
+    "fifaRanking": 58,
     "coach": "Hugo Broos",
     "host": false
   },
@@ -40,13 +50,23 @@
     "host": true
   },
   {
+    "id": "bih",
+    "name": "Bosnia y Herzegovina",
+    "shortName": "BIH",
+    "confederation": "UEFA",
+    "group": "B",
+    "fifaRanking": 68,
+    "coach": "Sergej Barbarez",
+    "host": false
+  },
+  {
     "id": "qat",
     "name": "Catar",
     "shortName": "QAT",
     "confederation": "AFC",
     "group": "B",
-    "fifaRanking": 56,
-    "coach": "Julen Lopetegui",
+    "fifaRanking": 54,
+    "coach": "Tintín Márquez",
     "host": false
   },
   {
@@ -55,7 +75,7 @@
     "shortName": "SUI",
     "confederation": "UEFA",
     "group": "B",
-    "fifaRanking": 18,
+    "fifaRanking": 19,
     "coach": "Murat Yakin",
     "host": false
   },
@@ -65,7 +85,7 @@
     "shortName": "BRA",
     "confederation": "CONMEBOL",
     "group": "C",
-    "fifaRanking": 5,
+    "fifaRanking": 6,
     "coach": "Carlo Ancelotti",
     "host": false
   },
@@ -85,7 +105,7 @@
     "shortName": "HAI",
     "confederation": "CONCACAF",
     "group": "C",
-    "fifaRanking": 83,
+    "fifaRanking": 82,
     "coach": "Sébastien Migné",
     "host": false
   },
@@ -105,9 +125,19 @@
     "shortName": "USA",
     "confederation": "CONCACAF",
     "group": "D",
-    "fifaRanking": 15,
+    "fifaRanking": 16,
     "coach": "Mauricio Pochettino",
     "host": true
+  },
+  {
+    "id": "tur",
+    "name": "Turquía",
+    "shortName": "TUR",
+    "confederation": "UEFA",
+    "group": "D",
+    "fifaRanking": 25,
+    "coach": "Vincenzo Montella",
+    "host": false
   },
   {
     "id": "par",
@@ -115,7 +145,7 @@
     "shortName": "PAR",
     "confederation": "CONMEBOL",
     "group": "D",
-    "fifaRanking": 40,
+    "fifaRanking": 39,
     "coach": "Gustavo Alfaro",
     "host": false
   },
@@ -125,7 +155,7 @@
     "shortName": "AUS",
     "confederation": "AFC",
     "group": "D",
-    "fifaRanking": 27,
+    "fifaRanking": 26,
     "coach": "Tony Popovic",
     "host": false
   },
@@ -145,7 +175,7 @@
     "shortName": "CUW",
     "confederation": "CONCACAF",
     "group": "E",
-    "fifaRanking": 81,
+    "fifaRanking": 79,
     "coach": "Dick Advocaat",
     "host": false
   },
@@ -155,7 +185,7 @@
     "shortName": "CIV",
     "confederation": "CAF",
     "group": "E",
-    "fifaRanking": 37,
+    "fifaRanking": 36,
     "coach": "Emerse Faé",
     "host": false
   },
@@ -185,8 +215,18 @@
     "shortName": "JPN",
     "confederation": "AFC",
     "group": "F",
-    "fifaRanking": 19,
+    "fifaRanking": 18,
     "coach": "Hajime Moriyasu",
+    "host": false
+  },
+  {
+    "id": "swe",
+    "name": "Suecia",
+    "shortName": "SWE",
+    "confederation": "UEFA",
+    "group": "F",
+    "fifaRanking": 28,
+    "coach": "Jon Dahl Tomasson",
     "host": false
   },
   {
@@ -195,8 +235,8 @@
     "shortName": "TUN",
     "confederation": "CAF",
     "group": "F",
-    "fifaRanking": 47,
-    "coach": "Sami Trabelsi",
+    "fifaRanking": 45,
+    "coach": "Sabri Lamouchi",
     "host": false
   },
   {
@@ -235,7 +275,7 @@
     "shortName": "NZL",
     "confederation": "OFC",
     "group": "G",
-    "fifaRanking": 84,
+    "fifaRanking": 85,
     "coach": "Darren Bazeley",
     "host": false
   },
@@ -245,7 +285,7 @@
     "shortName": "ESP",
     "confederation": "UEFA",
     "group": "H",
-    "fifaRanking": 1,
+    "fifaRanking": 2,
     "coach": "Luis de la Fuente",
     "host": false
   },
@@ -255,7 +295,7 @@
     "shortName": "CPV",
     "confederation": "CAF",
     "group": "H",
-    "fifaRanking": 67,
+    "fifaRanking": 66,
     "coach": "Bubista",
     "host": false
   },
@@ -265,7 +305,7 @@
     "shortName": "KSA",
     "confederation": "AFC",
     "group": "H",
-    "fifaRanking": 61,
+    "fifaRanking": 59,
     "coach": "Hervé Renard",
     "host": false
   },
@@ -285,18 +325,8 @@
     "shortName": "FRA",
     "confederation": "UEFA",
     "group": "I",
-    "fifaRanking": 3,
+    "fifaRanking": 1,
     "coach": "Didier Deschamps",
-    "host": false
-  },
-  {
-    "id": "sen",
-    "name": "Senegal",
-    "shortName": "SEN",
-    "confederation": "CAF",
-    "group": "I",
-    "fifaRanking": 12,
-    "coach": "Aliou Cissé",
     "host": false
   },
   {
@@ -310,12 +340,32 @@
     "host": false
   },
   {
+    "id": "sen",
+    "name": "Senegal",
+    "shortName": "SEN",
+    "confederation": "CAF",
+    "group": "I",
+    "fifaRanking": 14,
+    "coach": "Pape Thiaw",
+    "host": false
+  },
+  {
+    "id": "irq",
+    "name": "Irak",
+    "shortName": "IRQ",
+    "confederation": "AFC",
+    "group": "I",
+    "fifaRanking": 55,
+    "coach": "Graham Arnold",
+    "host": false
+  },
+  {
     "id": "arg",
     "name": "Argentina",
     "shortName": "ARG",
     "confederation": "CONMEBOL",
     "group": "J",
-    "fifaRanking": 2,
+    "fifaRanking": 3,
     "coach": "Lionel Scaloni",
     "host": false
   },
@@ -345,7 +395,7 @@
     "shortName": "JOR",
     "confederation": "AFC",
     "group": "J",
-    "fifaRanking": 64,
+    "fifaRanking": 65,
     "coach": "Jamal Sellami",
     "host": false
   },
@@ -355,8 +405,18 @@
     "shortName": "POR",
     "confederation": "UEFA",
     "group": "K",
-    "fifaRanking": 6,
+    "fifaRanking": 5,
     "coach": "Roberto Martínez",
+    "host": false
+  },
+  {
+    "id": "cod",
+    "name": "RD Congo",
+    "shortName": "COD",
+    "confederation": "CAF",
+    "group": "K",
+    "fifaRanking": 48,
+    "coach": "Sébastien Desabre",
     "host": false
   },
   {
@@ -365,7 +425,7 @@
     "shortName": "UZB",
     "confederation": "AFC",
     "group": "K",
-    "fifaRanking": 52,
+    "fifaRanking": 50,
     "coach": "Fabio Cannavaro",
     "host": false
   },
@@ -375,7 +435,7 @@
     "shortName": "COL",
     "confederation": "CONMEBOL",
     "group": "K",
-    "fifaRanking": 14,
+    "fifaRanking": 13,
     "coach": "Néstor Lorenzo",
     "host": false
   },
@@ -405,7 +465,7 @@
     "shortName": "GHA",
     "confederation": "CAF",
     "group": "L",
-    "fifaRanking": 72,
+    "fifaRanking": 70,
     "coach": "Otto Addo",
     "host": false
   },
@@ -415,68 +475,8 @@
     "shortName": "PAN",
     "confederation": "CONCACAF",
     "group": "L",
-    "fifaRanking": 33,
+    "fifaRanking": 34,
     "coach": "Thomas Christiansen",
-    "host": false
-  },
-  {
-    "id": "uefa-1",
-    "name": "Ganador Repechaje UEFA 1",
-    "shortName": "UEFA1",
-    "confederation": "UEFA",
-    "group": "B",
-    "fifaRanking": 0,
-    "coach": "ITA/NIR/GAL/BOS",
-    "host": false
-  },
-  {
-    "id": "uefa-2",
-    "name": "Ganador Repechaje UEFA 2",
-    "shortName": "UEFA2",
-    "confederation": "UEFA",
-    "group": "F",
-    "fifaRanking": 0,
-    "coach": "POL/ALB/UCR/SWE",
-    "host": false
-  },
-  {
-    "id": "uefa-3",
-    "name": "Ganador Repechaje UEFA 3",
-    "shortName": "UEFA3",
-    "confederation": "UEFA",
-    "group": "D",
-    "fifaRanking": 0,
-    "coach": "TUR/RUM/ESL/KOS",
-    "host": false
-  },
-  {
-    "id": "uefa-4",
-    "name": "Ganador Repechaje UEFA 4",
-    "shortName": "UEFA4",
-    "confederation": "UEFA",
-    "group": "A",
-    "fifaRanking": null,
-    "coach": "DIN/MAC/CZE/IRL",
-    "host": false
-  },
-  {
-    "id": "fifa-1",
-    "name": "Ganador Repechaje FIFA 1",
-    "shortName": "FIFA1",
-    "confederation": "Intercontinental",
-    "group": "K",
-    "fifaRanking": null,
-    "coach": "CON/JAM/CAL",
-    "host": false
-  },
-  {
-    "id": "fifa-2",
-    "name": "Ganador Repechaje FIFA 2",
-    "shortName": "FIFA2",
-    "confederation": "Intercontinental",
-    "group": "I",
-    "fifaRanking": null,
-    "coach": "IRK/BOL/SUR",
     "host": false
   }
 ]

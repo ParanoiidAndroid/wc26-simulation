@@ -3,13 +3,16 @@ import { motion } from 'motion/react';
 import { MapPin, Clock, Calendar as CalendarIcon, ArrowRight } from 'lucide-react';
 import { getTeamFlag } from '../../utils/assets';
 import teamsData from '../../data/teams.json';
+import { getArgTime } from '../../utils/time';
 
-const MatchCard = ({ match }) => {
+const MatchCard = ({ match, timeView }) => {
   const team1 = teamsData.find(t => t.id === match.team1);
   const team2 = teamsData.find(t => t.id === match.team2);
 
   const flag1 = getTeamFlag(match.team1);
   const flag2 = getTeamFlag(match.team2);
+
+  const displayTime = timeView === 'arg' ? getArgTime(match.time, match.city) : match.time;
 
   return (
     <motion.div 
@@ -52,7 +55,7 @@ const MatchCard = ({ match }) => {
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1 bg-fifa-blue/10 rounded-full border border-fifa-blue/20">
                <Clock size={12} className="text-fifa-cyan" />
-               <span className="text-[11px] font-black text-white">{match.time}</span>
+               <span className="text-[11px] font-black text-white">{displayTime}</span>
             </div>
           </div>
 
